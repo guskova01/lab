@@ -1,0 +1,30 @@
+﻿Построение начато 17.01.2021 18:45:05.
+     1>Проект "G:\kr\kr\kr\kr.vcxproj" в узле 2 (целевые объекты build).
+     1>PrepareForBuild:
+         Создание каталога "G:\kr\kr\Debug\".
+       InitializeBuildStatus:
+         Создание "Debug\kr.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt kr.cpp
+         kr.cpp
+     1>g:\kr\kr\kr\kr.cpp(22): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\kr.exe.embed.manifest.res" Debug\kr_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\kr\kr\Debug\kr.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\kr.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\kr\kr\Debug\kr.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\kr\kr\Debug\kr.lib" /MACHINE:X86 Debug\kr.exe.embed.manifest.res
+         Debug\kr.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\kr.exe.embed.manifest" /manifest Debug\kr.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\kr.exe.embed.manifest.res" Debug\kr_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\kr\kr\Debug\kr.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\kr.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\kr\kr\Debug\kr.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\kr\kr\Debug\kr.lib" /MACHINE:X86 Debug\kr.exe.embed.manifest.res
+         Debug\kr.obj
+         kr.vcxproj -> G:\kr\kr\Debug\kr.exe
+       FinalizeBuildStatus:
+         Файл "Debug\kr.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\kr.lastbuildstate".
+     1>Построение проекта "G:\kr\kr\kr\kr.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:14.76
